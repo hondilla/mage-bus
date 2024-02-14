@@ -45,6 +45,10 @@ abstract class Locator
     /** @psalm-param array<string, string> $pathOptions */
     private function searchFiles(array $pathOptions): array
     {
+        if (!is_dir($pathOptions['path'])) {
+            return [];
+        }
+
         /** @psalm-var array<int, SplFileInfo> */
         return reduce(function (array $acc, SplFileInfo $file) use ($pathOptions): array {
             if ($file->isFile() && $this->matchFiles($pathOptions['pattern'], $file)) {

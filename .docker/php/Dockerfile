@@ -3,9 +3,10 @@ FROM php:8.3-cli-alpine
 ARG UID
 ARG GID
 
-RUN apk --update --no-cache add curl git icu-dev
+RUN apk --update --no-cache add curl git patch
 
 RUN apk --update --no-cache add --virtual deps $PHPIZE_DEPS linux-headers \
+ && apk --update --no-cache add icu-dev \
  && pecl install -f xdebug apcu \
  && docker-php-ext-install -j$(nproc) opcache intl \
  && docker-php-ext-enable xdebug apcu opcache intl \

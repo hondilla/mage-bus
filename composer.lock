@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11ecc0817b779d138ec96180e22b53d2",
+    "content-hash": "17c28cf1385c6bec78188708e968f6ef",
     "packages": [
         {
             "name": "lambdish/phunctional",
@@ -2549,12 +2549,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "255547315d1f7c7a841bb1939ae39a4a50bd96c0"
+                "reference": "b9c541a765cc3ebdf963a3d59f2cd16b6c2e6786"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/255547315d1f7c7a841bb1939ae39a4a50bd96c0",
-                "reference": "255547315d1f7c7a841bb1939ae39a4a50bd96c0",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b9c541a765cc3ebdf963a3d59f2cd16b6c2e6786",
+                "reference": "b9c541a765cc3ebdf963a3d59f2cd16b6c2e6786",
                 "shasum": ""
             },
             "require": {
@@ -2745,7 +2745,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-02-12T17:15:00+00:00"
+            "time": "2024-02-15T15:39:31+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -4100,12 +4100,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/canvas.git",
-                "reference": "3d719157c555549b751b2d8010faf2219c3f5e67"
+                "reference": "44047cc3342101f6abcc508b9d7a68e2864600bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/canvas/zipball/3d719157c555549b751b2d8010faf2219c3f5e67",
-                "reference": "3d719157c555549b751b2d8010faf2219c3f5e67",
+                "url": "https://api.github.com/repos/orchestral/canvas/zipball/44047cc3342101f6abcc508b9d7a68e2864600bc",
+                "reference": "44047cc3342101f6abcc508b9d7a68e2864600bc",
                 "shasum": ""
             },
             "require": {
@@ -4168,7 +4168,7 @@
                 "issues": "https://github.com/orchestral/canvas/issues",
                 "source": "https://github.com/orchestral/canvas/tree/9.x"
             },
-            "time": "2024-02-07T14:15:49+00:00"
+            "time": "2024-02-15T23:33:32+00:00"
         },
         {
             "name": "orchestra/canvas-core",
@@ -4245,12 +4245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "b2d90738c6a23cd3823fb2a0228a89685fe3efb6"
+                "reference": "c1a5b1f059c7a6fb14436355c9b42aff87469962"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/b2d90738c6a23cd3823fb2a0228a89685fe3efb6",
-                "reference": "b2d90738c6a23cd3823fb2a0228a89685fe3efb6",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/c1a5b1f059c7a6fb14436355c9b42aff87469962",
+                "reference": "c1a5b1f059c7a6fb14436355c9b42aff87469962",
                 "shasum": ""
             },
             "require": {
@@ -4293,7 +4293,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench/tree/9.x"
             },
-            "time": "2024-02-09T02:36:07+00:00"
+            "time": "2024-02-15T00:56:50+00:00"
         },
         {
             "name": "orchestra/testbench-core",
@@ -4301,12 +4301,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "c809e73d73d0f5929e66c7595bef7fdb54b54698"
+                "reference": "41c9f441c59ae559291a2ecf8d514d3bc5f6af8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/c809e73d73d0f5929e66c7595bef7fdb54b54698",
-                "reference": "c809e73d73d0f5929e66c7595bef7fdb54b54698",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/41c9f441c59ae559291a2ecf8d514d3bc5f6af8b",
+                "reference": "41c9f441c59ae559291a2ecf8d514d3bc5f6af8b",
                 "shasum": ""
             },
             "require": {
@@ -4383,7 +4383,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-02-12T15:47:34+00:00"
+            "time": "2024-02-15T00:50:31+00:00"
         },
         {
             "name": "orchestra/workbench",
@@ -6370,21 +6370,21 @@
         },
         {
             "name": "rector/rector",
-            "version": "0.19.8",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "de3b3bb159abd704b144aa86fb244f7f1f4ac947"
+                "reference": "258b775511e62a7188f8ce114d44acaf244d9a7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/de3b3bb159abd704b144aa86fb244f7f1f4ac947",
-                "reference": "de3b3bb159abd704b144aa86fb244f7f1f4ac947",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/258b775511e62a7188f8ce114d44acaf244d9a7d",
+                "reference": "258b775511e62a7188f8ce114d44acaf244d9a7d",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2|^8.0",
-                "phpstan/phpstan": "^1.10.56"
+                "phpstan/phpstan": "^1.10.57"
             },
             "conflict": {
                 "rector/rector-doctrine": "*",
@@ -6414,7 +6414,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/0.19.8"
+                "source": "https://github.com/rectorphp/rector/tree/1.0.1"
             },
             "funding": [
                 {
@@ -6422,7 +6422,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-05T10:59:13+00:00"
+            "time": "2024-02-16T07:53:23+00:00"
         },
         {
             "name": "roave/security-advisories",
@@ -6430,12 +6430,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "0657710ddf6226e00182d8f26c3d4d7e73699008"
+                "reference": "683c8e7acb9c333990683edd7faed421c87d3954"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/0657710ddf6226e00182d8f26c3d4d7e73699008",
-                "reference": "0657710ddf6226e00182d8f26c3d4d7e73699008",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/683c8e7acb9c333990683edd7faed421c87d3954",
+                "reference": "683c8e7acb9c333990683edd7faed421c87d3954",
                 "shasum": ""
             },
             "conflict": {
@@ -6539,7 +6539,7 @@
                 "dbrisinajumi/d2files": "<1",
                 "dcat/laravel-admin": "<=2.1.3.0-beta",
                 "derhansen/fe_change_pwd": "<2.0.5|>=3,<3.0.3",
-                "derhansen/sf_event_mgt": "<4.3.1|>=5,<5.1.1",
+                "derhansen/sf_event_mgt": "<4.3.1|>=5,<5.1.1|>=7,<7.4",
                 "desperado/xml-bundle": "<=0.1.7",
                 "directmailteam/direct-mail": "<6.0.3|>=7,<7.0.3|>=8,<9.5.2",
                 "doctrine/annotations": "<1.2.7",
@@ -6554,7 +6554,7 @@
                 "dolibarr/dolibarr": "<18.0.2",
                 "dompdf/dompdf": "<2.0.4",
                 "doublethreedigital/guest-entries": "<3.1.2",
-                "drupal/core": "<10.1.8|>=10.2,<10.2.2",
+                "drupal/core": ">=6,<6.38|>=7,<7.96|>=8,<10.1.8|>=10.2,<10.2.2",
                 "drupal/drupal": ">=5,<5.11|>=6,<6.38|>=7,<7.80|>=8,<8.9.16|>=9,<9.1.12|>=9.2,<9.2.4",
                 "duncanmcclean/guest-entries": "<3.1.2",
                 "dweeves/magmi": "<=0.7.24",
@@ -6720,7 +6720,7 @@
                 "liftkit/database": "<2.13.2",
                 "limesurvey/limesurvey": "<3.27.19",
                 "livehelperchat/livehelperchat": "<=3.91",
-                "livewire/livewire": ">2.2.4,<2.2.6|>=3,<3.0.4",
+                "livewire/livewire": ">2.2.4,<2.2.6",
                 "lms/routes": "<2.1.1",
                 "localizationteam/l10nmgr": "<7.4|>=8,<8.7|>=9,<9.2",
                 "luyadev/yii-helpers": "<1.2.1",
@@ -7021,14 +7021,13 @@
                 "twig/twig": "<1.44.7|>=2,<2.15.3|>=3,<3.4.3",
                 "typo3/cms": "<9.5.29|>=10,<10.4.35|>=11,<11.5.23|>=12,<12.2",
                 "typo3/cms-backend": "<4.1.14|>=4.2,<4.2.15|>=4.3,<4.3.7|>=4.4,<4.4.4|>=7,<=7.6.50|>=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
-                "typo3/cms-core": "<8.7.55|>=9,<9.5.44|>=10,<10.4.41|>=11,<11.5.33|>=12,<12.4.8",
+                "typo3/cms-core": "<=8.7.56|>=9,<=9.5.45|>=10,<=10.4.42|>=11,<=11.5.34|>=12,<=12.4.10|==13",
                 "typo3/cms-extbase": "<6.2.24|>=7,<7.6.8|==8.1.1",
                 "typo3/cms-fluid": "<4.3.4|>=4.4,<4.4.1",
                 "typo3/cms-form": ">=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
                 "typo3/cms-frontend": "<4.3.9|>=4.4,<4.4.5",
                 "typo3/cms-install": "<4.1.14|>=4.2,<4.2.16|>=4.3,<4.3.9|>=4.4,<4.4.5|>=12.2,<12.4.8",
                 "typo3/cms-rte-ckeditor": ">=9.5,<9.5.42|>=10,<10.4.39|>=11,<11.5.30",
-                "typo3/cms-saltedpasswords": "<0.2.13",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.12|>=3.1,<3.1.10|>=3.2,<3.2.13|>=3.3,<3.3.13|>=4,<4.0.6",
                 "typo3/html-sanitizer": ">=1,<=1.5.2|>=2,<=2.1.3",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4|>=2.3,<2.3.99|>=3,<3.0.20|>=3.1,<3.1.18|>=3.2,<3.2.14|>=3.3,<3.3.23|>=4,<4.0.17|>=4.1,<4.1.16|>=4.2,<4.2.12|>=4.3,<4.3.3",
@@ -7085,6 +7084,7 @@
                 "yikesinc/yikes-inc-easy-mailchimp-extender": "<6.8.6",
                 "yoast-seo-for-typo3/yoast_seo": "<7.2.3",
                 "yourls/yourls": "<=1.8.2",
+                "yuan1994/tpadmin": "<=1.3.12",
                 "zencart/zencart": "<=1.5.7.0-beta",
                 "zendesk/zendesk_api_client_php": "<2.2.11",
                 "zendframework/zend-cache": ">=2.4,<2.4.8|>=2.5,<2.5.3",
@@ -7159,7 +7159,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-12T19:04:36+00:00"
+            "time": "2024-02-14T16:04:39+00:00"
         },
         {
             "name": "sanmai/later",
@@ -8332,16 +8332,16 @@
         },
         {
             "name": "spatie/laravel-ray",
-            "version": "1.35.0",
+            "version": "1.35.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ray.git",
-                "reference": "29298a4bc2038ba108abc283e96fb74991644774"
+                "reference": "f504d3787d88c7e5de7a4290658f7ad9b1352f22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ray/zipball/29298a4bc2038ba108abc283e96fb74991644774",
-                "reference": "29298a4bc2038ba108abc283e96fb74991644774",
+                "url": "https://api.github.com/repos/spatie/laravel-ray/zipball/f504d3787d88c7e5de7a4290658f7ad9b1352f22",
+                "reference": "f504d3787d88c7e5de7a4290658f7ad9b1352f22",
                 "shasum": ""
             },
             "require": {
@@ -8351,7 +8351,7 @@
                 "illuminate/queue": "^7.20|^8.19|^9.0|^10.0|^11.0",
                 "illuminate/support": "^7.20|^8.19|^9.0|^10.0|^11.0",
                 "php": "^7.4|^8.0",
-                "rector/rector": "^0.19.2",
+                "rector/rector": "^0.19.2|^1.0",
                 "spatie/backtrace": "^1.0",
                 "spatie/ray": "^1.41.1",
                 "symfony/stopwatch": "4.2|^5.1|^6.0|^7.0",
@@ -8403,7 +8403,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-ray/issues",
-                "source": "https://github.com/spatie/laravel-ray/tree/1.35.0"
+                "source": "https://github.com/spatie/laravel-ray/tree/1.35.1"
             },
             "funding": [
                 {
@@ -8415,7 +8415,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2024-02-03T10:04:50+00:00"
+            "time": "2024-02-13T14:19:41+00:00"
         },
         {
             "name": "spatie/macroable",
@@ -11350,16 +11350,16 @@
         },
         {
             "name": "symplify/easy-coding-standard",
-            "version": "12.1.10",
+            "version": "12.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/easy-coding-standard/easy-coding-standard.git",
-                "reference": "67f643befd6997961aa6bd759b4529e94bb18b53"
+                "reference": "d87f15506b5200a0098076cdbf6d00913b4e41f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-coding-standard/easy-coding-standard/zipball/67f643befd6997961aa6bd759b4529e94bb18b53",
-                "reference": "67f643befd6997961aa6bd759b4529e94bb18b53",
+                "url": "https://api.github.com/repos/easy-coding-standard/easy-coding-standard/zipball/d87f15506b5200a0098076cdbf6d00913b4e41f5",
+                "reference": "d87f15506b5200a0098076cdbf6d00913b4e41f5",
                 "shasum": ""
             },
             "require": {
@@ -11392,7 +11392,7 @@
             ],
             "support": {
                 "issues": "https://github.com/easy-coding-standard/easy-coding-standard/issues",
-                "source": "https://github.com/easy-coding-standard/easy-coding-standard/tree/12.1.10"
+                "source": "https://github.com/easy-coding-standard/easy-coding-standard/tree/12.1.12"
             },
             "funding": [
                 {
@@ -11404,7 +11404,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-05T10:58:24+00:00"
+            "time": "2024-02-14T10:04:06+00:00"
         },
         {
             "name": "thecodingmachine/safe",
@@ -11650,16 +11650,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "5.21.1",
+            "version": "5.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "8c473e2437be8b6a8fd8f630f0f11a16b114c494"
+                "reference": "e9dad66e11274315dac27e08349c628c7d6a1a43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/8c473e2437be8b6a8fd8f630f0f11a16b114c494",
-                "reference": "8c473e2437be8b6a8fd8f630f0f11a16b114c494",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/e9dad66e11274315dac27e08349c628c7d6a1a43",
+                "reference": "e9dad66e11274315dac27e08349c628c7d6a1a43",
                 "shasum": ""
             },
             "require": {
@@ -11682,7 +11682,7 @@
                 "netresearch/jsonmapper": "^1.0 || ^2.0 || ^3.0 || ^4.0",
                 "nikic/php-parser": "^4.16",
                 "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
-                "sebastian/diff": "^4.0 || ^5.0",
+                "sebastian/diff": "^4.0 || ^5.0 || ^6.0",
                 "spatie/array-to-xml": "^2.17.0 || ^3.0",
                 "symfony/console": "^4.1.6 || ^5.0 || ^6.0 || ^7.0",
                 "symfony/filesystem": "^5.4 || ^6.0 || ^7.0"
@@ -11756,7 +11756,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2024-02-01T01:04:32+00:00"
+            "time": "2024-02-15T22:52:31+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
