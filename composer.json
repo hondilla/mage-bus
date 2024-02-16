@@ -16,7 +16,8 @@
   ],
   "require": {
     "php": "^8.3",
-    "lambdish/phunctional": "^2.1.0"
+    "lambdish/phunctional": "^2.1.0",
+    "mage-universe/class-locator": "dev-edge"
   },
   "require-dev": {
     "brianium/paratest": "^7.4.1",
@@ -32,6 +33,12 @@
     "vimeo/psalm": "^5.22.1",
     "orchestra/testbench": "^9.x-dev"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hondilla/mage-class-locator.git"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
   "autoload": {

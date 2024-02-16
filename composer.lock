@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17c28cf1385c6bec78188708e968f6ef",
+    "content-hash": "a2f22aee748bb6b95087a1faf73049fd",
     "packages": [
         {
             "name": "lambdish/phunctional",
@@ -61,6 +61,94 @@
                 "source": "https://github.com/Lambdish/phunctional/tree/v2.1.0"
             },
             "time": "2020-09-18T07:22:08+00:00"
+        },
+        {
+            "name": "mage-universe/class-locator",
+            "version": "dev-edge",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hondilla/mage-class-locator.git",
+                "reference": "3cceb2d5bebf6563820cefb1d2e1e0bbebc323c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hondilla/mage-class-locator/zipball/3cceb2d5bebf6563820cefb1d2e1e0bbebc323c4",
+                "reference": "3cceb2d5bebf6563820cefb1d2e1e0bbebc323c4",
+                "shasum": ""
+            },
+            "require": {
+                "lambdish/phunctional": "^2.1.0",
+                "php": "^8.3"
+            },
+            "require-dev": {
+                "brianium/paratest": "^7.4.1",
+                "infection/infection": "^0.27.9",
+                "mockery/mockery": "^1.6.7",
+                "phpmd/phpmd": "^2.15",
+                "phpunit/phpunit": "^10.5.10",
+                "psalm/plugin-mockery": "^1.1",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "roave/security-advisories": "dev-latest",
+                "symfony/var-dumper": "^7.0.3",
+                "symplify/easy-coding-standard": "^12.1.12",
+                "vimeo/psalm": "^5.22.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mage\\Class\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\": "tests/",
+                    "Tests\\Data\\": "tests/Data/src/"
+                }
+            },
+            "scripts": {
+                "analyse": [
+                    "vendor/bin/psalm"
+                ],
+                "mess": [
+                    "vendor/bin/phpmd src github phpmd.xml"
+                ],
+                "lint": [
+                    "vendor/bin/ecs check"
+                ],
+                "lint:fix": [
+                    "@lint --fix"
+                ],
+                "test:phpunit": [
+                    "vendor/bin/paratest --processes=$(nproc) --display-warnings --display-deprecations --stop-on-warning"
+                ],
+                "test:infection": [
+                    "vendor/bin/infection --threads=$(nproc) --skip-initial-tests --coverage=build --show-mutations --logger-github"
+                ],
+                "test": [
+                    "@test:phpunit",
+                    "@test:infection"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Bohollo",
+                    "email": "cbohollo@omatech.com"
+                }
+            ],
+            "homepage": "https://github.com/mage-universe/class-locator",
+            "keywords": [
+                "class-locator",
+                "mage",
+                "omatech"
+            ],
+            "support": {
+                "source": "https://github.com/hondilla/mage-class-locator/tree/edge"
+            },
+            "time": "2024-02-16T19:10:31+00:00"
         }
     ],
     "packages-dev": [
@@ -2549,12 +2637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b9c541a765cc3ebdf963a3d59f2cd16b6c2e6786"
+                "reference": "91159cbddf95a31da3186255735dca5dfcb64c8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b9c541a765cc3ebdf963a3d59f2cd16b6c2e6786",
-                "reference": "b9c541a765cc3ebdf963a3d59f2cd16b6c2e6786",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/91159cbddf95a31da3186255735dca5dfcb64c8b",
+                "reference": "91159cbddf95a31da3186255735dca5dfcb64c8b",
                 "shasum": ""
             },
             "require": {
@@ -2745,7 +2833,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-02-15T15:39:31+00:00"
+            "time": "2024-02-16T17:41:00+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -12185,6 +12273,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "mage-universe/class-locator": 20,
         "roave/security-advisories": 20,
         "orchestra/testbench": 20
     },
