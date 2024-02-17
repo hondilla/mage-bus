@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2f22aee748bb6b95087a1faf73049fd",
+    "content-hash": "08c6f5d5121c838dc2c50d5e16bbbc66",
     "packages": [
         {
             "name": "lambdish/phunctional",
@@ -63,17 +63,17 @@
             "time": "2020-09-18T07:22:08+00:00"
         },
         {
-            "name": "mage-universe/class-locator",
+            "name": "mage-universe/locator",
             "version": "dev-edge",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hondilla/mage-class-locator.git",
-                "reference": "3cceb2d5bebf6563820cefb1d2e1e0bbebc323c4"
+                "url": "https://github.com/hondilla/mage-locator.git",
+                "reference": "d94625346598d291b466c57df4e45e38b67e9c85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hondilla/mage-class-locator/zipball/3cceb2d5bebf6563820cefb1d2e1e0bbebc323c4",
-                "reference": "3cceb2d5bebf6563820cefb1d2e1e0bbebc323c4",
+                "url": "https://api.github.com/repos/hondilla/mage-locator/zipball/d94625346598d291b466c57df4e45e38b67e9c85",
+                "reference": "d94625346598d291b466c57df4e45e38b67e9c85",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +97,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Mage\\Class\\": "src/"
+                    "Mage\\Locator\\": "src/"
                 }
             },
             "autoload-dev": {
@@ -139,16 +139,16 @@
                     "email": "cbohollo@omatech.com"
                 }
             ],
-            "homepage": "https://github.com/mage-universe/class-locator",
+            "homepage": "https://github.com/mage-universe/locator",
             "keywords": [
-                "class-locator",
+                "locator",
                 "mage",
                 "omatech"
             ],
             "support": {
-                "source": "https://github.com/hondilla/mage-class-locator/tree/edge"
+                "source": "https://github.com/hondilla/mage-locator/tree/edge"
             },
-            "time": "2024-02-16T19:10:31+00:00"
+            "time": "2024-02-17T20:05:34+00:00"
         }
     ],
     "packages-dev": [
@@ -2637,12 +2637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "91159cbddf95a31da3186255735dca5dfcb64c8b"
+                "reference": "09513ac3ee362ff8c1affed4270b4ac8b6439d3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/91159cbddf95a31da3186255735dca5dfcb64c8b",
-                "reference": "91159cbddf95a31da3186255735dca5dfcb64c8b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/09513ac3ee362ff8c1affed4270b4ac8b6439d3b",
+                "reference": "09513ac3ee362ff8c1affed4270b4ac8b6439d3b",
                 "shasum": ""
             },
             "require": {
@@ -2833,7 +2833,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-02-16T17:41:00+00:00"
+            "time": "2024-02-17T15:42:43+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -4389,12 +4389,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "41c9f441c59ae559291a2ecf8d514d3bc5f6af8b"
+                "reference": "d96ee860906f9a461d5afab0a84e960caa7ec698"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/41c9f441c59ae559291a2ecf8d514d3bc5f6af8b",
-                "reference": "41c9f441c59ae559291a2ecf8d514d3bc5f6af8b",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/d96ee860906f9a461d5afab0a84e960caa7ec698",
+                "reference": "d96ee860906f9a461d5afab0a84e960caa7ec698",
                 "shasum": ""
             },
             "require": {
@@ -4471,7 +4471,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-02-15T00:50:31+00:00"
+            "time": "2024-02-17T02:42:20+00:00"
         },
         {
             "name": "orchestra/workbench",
@@ -6518,12 +6518,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "683c8e7acb9c333990683edd7faed421c87d3954"
+                "reference": "3e513f303c13a625befa037a23b5d1ac9bde2a52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/683c8e7acb9c333990683edd7faed421c87d3954",
-                "reference": "683c8e7acb9c333990683edd7faed421c87d3954",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3e513f303c13a625befa037a23b5d1ac9bde2a52",
+                "reference": "3e513f303c13a625befa037a23b5d1ac9bde2a52",
                 "shasum": ""
             },
             "conflict": {
@@ -6713,7 +6713,7 @@
                 "funadmin/funadmin": "<=3.2|>=3.3.2,<=3.3.3",
                 "gaoming13/wechat-php-sdk": "<=1.10.2",
                 "genix/cms": "<=1.1.11",
-                "getgrav/grav": "<=1.7.42.1",
+                "getgrav/grav": "<1.7.44",
                 "getkirby/cms": "<3.5.8.3-dev|>=3.6,<3.6.6.3-dev|>=3.7,<3.7.5.2-dev|>=3.8,<3.8.4.1-dev|>=3.9,<3.9.6",
                 "getkirby/kirby": "<=2.5.12",
                 "getkirby/panel": "<2.5.14",
@@ -7247,7 +7247,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-14T16:04:39+00:00"
+            "time": "2024-02-16T21:04:04+00:00"
         },
         {
             "name": "sanmai/later",
@@ -12273,7 +12273,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "mage-universe/class-locator": 20,
+        "mage-universe/locator": 20,
         "roave/security-advisories": 20,
         "orchestra/testbench": 20
     },

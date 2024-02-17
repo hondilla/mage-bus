@@ -2,6 +2,7 @@
 
 namespace Mage\Bus\Locator;
 
+use Mage\Locator\Paths;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionNamedType;
@@ -11,14 +12,14 @@ use function Lambdish\Phunctional\search;
 
 abstract class Locator
 {
-    private \Mage\Class\Locator $locator;
+    private \Mage\Locator\Locator $locator;
 
     public function __construct(
         array $paths,
         private readonly string $commandInterface,
         private readonly string $commandHandlerInterface
     ) {
-        $this->locator = new \Mage\Class\Locator($paths);
+        $this->locator = new \Mage\Locator\Locator(new Paths($paths));
     }
 
     public function mappings(): array
@@ -30,7 +31,7 @@ abstract class Locator
                 $acc = $this->setMapping($class, $acc);
             }
             return $acc;
-        }, $this->locator->getClasses(), []);
+        }, $this->locator->classes(), []);
     }
 
     private function classImplements(string $class, string $implements): bool
